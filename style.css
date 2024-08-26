@@ -1,0 +1,346 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #f9f9f9;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #100a77;
+    color: #f7f8f9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.challenge{
+    position: relative;
+    margin: 28px;
+    padding: 35px;
+    width: 673px;
+    margin-left: 191px;
+}
+.box{
+    position: relative;
+    display: flex;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+.button{
+    padding: 20px;
+    border-radius: 7px;
+}
+.btn1{
+    border-radius: 7px;
+    margin: 20px;
+}
+.btn2{
+    border-radius: 7px;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    --bs-btn-line-height: 2.5px;
+    --bs-btn-padding-x: 2.75rem
+}
+.box2{
+    position: relative;
+    display: flex;
+}
+.join{
+    position: relative;
+    margin: 25px;
+    padding: 4px;
+    width: 971px;
+    margin-left: 64px;
+}
+.links{
+    width: 271px;
+    padding: 55px;
+    margin: 22px;
+    margin-left: 65px;
+}
+
+.vision{
+    margin: 50px;
+    padding: 20px;  
+}
+.vision h1{
+    position: relative;
+    left: 223px;
+    color: rgb(0, 0, 89);
+}
+.carousel {
+    position: relative;
+    width: 800px;
+    left: 368px;
+   
+}
+.follow{
+    margin: 50px;
+    padding: 20px; 
+}
+.joinus{
+    margin: 50px;
+    padding: 20px;  
+}
+.follow h1{
+    position: relative;
+    left: 223px;
+    color: rgb(0, 0, 89);
+}
+
+.joinus h1{
+    position: relative;
+    left: 223px;
+    color: rgb(0, 0, 89);
+}
+
+button.carousel-control-prev{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:-188px;
+}
+button.carousel-control-next{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:-237px;
+    left: 770px;  
+}
+.carousel-inner{
+    width: 800px;
+    height: 452px;
+}
+
+.flw{
+    display: inline;
+}
+.img{
+    width: 250px;
+    float: inline-end;
+}
+.join h1{
+    color: rgb(0, 0, 89);   
+}
+.challenge h1{
+    color: rgb(0, 0, 89);
+}
+
+
+
+#badacontainer h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 36px;
+}
+
+#badaconatiner p{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+/* Responsive Design */
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+    .challenge {
+      width: 673px;
+      margin-left: 191px;
+    }
+    .user {
+      width: 1100px;
+    }
+    .join {
+        width: 971px;
+        margin-left: 64px;
+      }
+      .links {
+        width: 271px;
+        padding: 55px;
+        margin: 22px;
+        margin-left: 65px;
+      }
+      .carousel {
+        width: 800px;
+        left: 368px;
+      }
+      .carousel-inner {
+        width: 800px;
+        height: 452px;
+      }
+    }
+    
+    /* Laptop */
+    
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .challenge {
+        width: 550px;
+        margin-left: 150px;
+      }
+      .user {
+        width: 900px;
+      }
+      .join {
+        width: 800px;
+        margin-left: 50px;
+      }
+      .links {
+        width: 220px;
+        padding: 40px;
+        margin: 18px;
+        margin-left: 50px;
+      }
+      .carousel {
+        width: 700px;
+        left: 300px;
+      }
+      .carousel-inner {
+        width: 700px;
+        height: 400px;
+      }
+    }
+    
+    /* Tablet */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+      .challenge {
+        width: 450px;
+        margin-left: 100px;
+      }
+      .user {
+        width: 700px;
+      }
+      .join {
+        width: 650px;
+        margin-left: 30px;
+      }
+      .links {
+        width: 180px;
+        padding: 30px;
+        margin: 15px;
+        margin-left: 30px;
+      }
+      .carousel {
+        width: 600px;
+        left: 200px;
+      }
+      .carousel-inner {
+        width: 600px;
+        height: 350px;
+      }
+    }
+    
+    /* Mobile */
+    
+    @media (max-width: 767px) {
+      .challenge {
+        width: 300px;
+        margin-left: 50px;
+      }
+      .user {
+        width: 500px;
+      }
+      .join {
+        width: 450px;
+        margin-left: 20px;
+      }
+      .links {
+        width: 150px;
+        padding: 20px;
+        margin: 10px;
+        margin-left: 20px;
+      }
+      .carousel {
+        width: 400px;
+        left: 100px;
+      }
+      .carousel-inner {
+        width: 400px;
+        height: 250px;
+      }
+    }
+    
+    /* Mobile Small */
+    
+    @media (max-width: 480px) {
+      .challenge {
+        width: 250px;
+        margin-left: 30px;
+      }
+      .user {
+        width: 400px;
+      }
+      .join {
+        width: 350px;
+        margin-left: 15px;
+      }
+      .links {
+        width: 120px;
+        padding: 15px;
+        margin: 8px;
+        margin-left: 15px;
+      }
+      .carousel {
+        width: 300px;
+        left: 50px;
+      }
+      .carousel-inner {
+        width: 300px;
+        height: 200px;
+      }
+    }
